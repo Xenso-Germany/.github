@@ -1,12 +1,26 @@
-## Hi there 👋
+#Xenso
 
-<!--
+Xenso is a Minecraft software organization focused on taking servers to the next level.
 
-**Here are some ideas to get you started:**
+<?php
+$members = json_decode(file_get_contents('https://discordapp.com/api/guilds/869568898264092692/widget.json'), true)['members'];
+$membersCount = 1;
+foreach ($members as $member) {
+    if ($member['status'] == 'online') {
+        $membersCount++;
+    }
+}
+?>
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<p><a href="https://discord.gg/INVITE_CODE"><button class="w3-btn w3-red">Online Members
+<span class="w3-badge w3-margin-left"><?php echo $membersCount; ?></span>
+</button></a></p>
+</body>
+</html>
+
