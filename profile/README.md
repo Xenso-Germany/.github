@@ -4,3 +4,5 @@ Xenso is a Minecraft software organization focused on taking servers to the next
 
 
 <img src="https://discordapp.com/api/guilds/869568898264092692/widget.png?style=banner1" alt="Discord Banner 1"/>
+
+![Discord Banner 1](https://discordapp.com/api/guilds/869568898264092692/widget.png?style=banner1)
