@@ -1,6 +1,5 @@
 # Xenso
 
-Xenso is a Minecraft software organization focused on taking servers to the next level.
-
+Xenso is a Minecraft organization focused on taking servers to the next level.
 
 <img src="https://discordapp.com/api/guilds/869568898264092692/widget.png?style=banner2" alt="Discord Banner 2"/>
